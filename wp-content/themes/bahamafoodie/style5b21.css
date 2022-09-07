@@ -10284,7 +10284,7 @@ footer .bottom-footer .bottom-footer-socials a img {
 .healthier-world-section {
   position: relative;
   width: 100%;
-  background-color: #fbe2e8;
+  background-color: #621ca8;
   padding-top: 197px;
   padding-bottom: 78px;
   z-index: 1;
@@ -10531,13 +10531,13 @@ footer .bottom-footer .bottom-footer-socials a img {
 .healthier-world-section .grid .healthier-world-content h2 {
   margin-top: 52px;
   font-size: 54px;
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
   font-family: "Delivery Note DEMO";
   line-height: 46px;
   letter-spacing: 1px;
   word-spacing: 0;
-  color: #000;
+  color: #ffffff;
   line-height: 40px;
 }
 @media (min-width: 1025px) {
@@ -10547,12 +10547,12 @@ footer .bottom-footer .bottom-footer-socials a img {
 }
 .healthier-world-section .grid .healthier-world-content h2 span {
   font-size: 11rem;
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
   font-family: "Sandman_Fill";
   letter-spacing: 0.2rem;
   word-spacing: 0.1em;
-  color: #000;
+  color: #ffffff;
 }
 @media (min-width: 1025px) {
   .healthier-world-section .grid .healthier-world-content h2 span {
@@ -10575,7 +10575,7 @@ footer .bottom-footer .bottom-footer-socials a img {
   }
 }
 .healthier-world-section .grid .healthier-world-content .title-wrapper .dots-container .dot-item {
-  background-color: #000;
+  background-color: #ffffff;
   width: 4px;
   height: 4px;
   margin: 0 4px;
@@ -10588,12 +10588,12 @@ footer .bottom-footer .bottom-footer-socials a img {
 }
 .healthier-world-section .grid .healthier-world-content .title-wrapper h2 {
   font-size: 11rem;
-  color: #000;
+  color: #ffffff;
   text-decoration: none;
   font-family: "Sandman_Fill";
   letter-spacing: 0.2rem;
   word-spacing: 0.1em;
-  color: #000;
+  color: #ffffff;
   margin: 16px 24px 0;
   line-height: 30px;
   font-size: 54px;
@@ -10603,10 +10603,10 @@ footer .bottom-footer .bottom-footer-socials a img {
   width: 100%;
   padding-left: 0;
   font-family: "Axiforma";
-  color: #000;
+  color: #ffffff;
   font-size: 14px;
   line-height: 24px;
-  color: #000;
+  color: #ffffff;
 }
 @media (min-width: 1025px) {
   .healthier-world-section .grid .healthier-world-content p {

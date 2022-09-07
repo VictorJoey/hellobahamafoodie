@@ -3,10 +3,10 @@
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 2000 2000" style="enable-background:new 0 0 2000 2000;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#1A428A;}
+	.st0{fill:#000;}
 	.st1{opacity:0.8;}
 	.st2{fill:none;}
-	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#1A428A;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#000;}
 </style>
 <g>
 	<path class="st0" d="M316.8,1697.5c-3.7,0-7.3-1.4-10.1-4.2c-5.6-5.6-5.6-14.6,0-20.2L1673.1,306.7c5.6-5.6,14.6-5.6,20.2,0
