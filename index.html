@@ -328,6 +328,47 @@
         .has-x-large-font-size {
             font-size: var(--wp--preset--font-size--x-large) !important;
         }
+
+        /* wiggle animation on order button */
+        .wiggling-button {
+            animation: wiggle 2s linear infinite !important;
+        }
+
+        @keyframes wiggle {
+            0%,
+            7% {
+                transform: rotateZ(0);
+            }
+            15% {
+                transform: rotateZ(-3deg);
+            }
+            20% {
+                transform: rotateZ(3deg);
+            }
+            25% {
+                transform: rotateZ(-3deg);
+            }
+            30% {
+                transform: rotateZ(3deg);
+            }
+            35% {
+                transform: rotateZ(-3deg);
+            }
+            40%,
+            100% {
+                transform: rotateZ(0);
+            }
+        }
+
+        /* custom scrollbar */
+        *::-webkit-scrollbar {
+        width: 20px;
+        }
+
+        *::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: #ffff00;
+        }
     </style>
     <link rel='stylesheet' id='cookie-law-info-css'
         href='wp-content/plugins/cookie-law-info/public/css/cookie-law-info-public431f.css?ver=2.1.2' type='text/css'
@@ -615,7 +656,7 @@
                     </svg>
 
 
-                    <a href="https://hellobahamafoodie.com/shop" class="cta-store-locator">
+                    <a href="https://hellobahamafoodie.com/shop" class="cta-store-locator wiggling-button">
                         Order Online </a>
                 </nav>
 
