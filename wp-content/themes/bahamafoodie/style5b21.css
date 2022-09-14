@@ -662,14 +662,14 @@ body .waves-page-transition-container .waves-page-transition {
 
 .cta-orange {
   color: #ffffff;
-  background-color: #621ca8;
+  background-color: #428630;
 }
 
 .cta-border {
   position: relative;
-  border: 2px solid #621ca8;
+  border: 2px solid #428630;
   background-color: #ffffff;
-  color: #621ca8;
+  color: #428630;
 }
 .cta-border::after {
   position: absolute;
