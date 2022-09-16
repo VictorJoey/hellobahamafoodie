@@ -423,6 +423,19 @@
             from, to { border-color: transparent }
             50% { border-color: #000; }
         }
+
+        .fade-in {
+            animation: fadeIn 5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
     </style>
     <!-- Typed.js library -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -769,7 +782,7 @@
                                  <div class="typed3"></div>
                             </h1>
                             
-                            <div class="five-dots-container">
+                            <div class="five-dots-container fade-in">
                                 <span class="dot-item"></span>
                                 <span class="dot-item"></span>
                                 <span class="dot-item"></span>
@@ -780,7 +793,7 @@
                                 <span class="dot-item dot-item-tablet"></span>
                                 <span class="dot-item dot-item-tablet"></span>
                             </div>
-                            <h2>Delicious, Authentic Plant-Based Food</h2>
+                            <h2 class="fade-in">Delicious, Authentic Plant-Based Food</h2>
                         </div>
                     </div>
                     <a href="#intro-section" id="scroll-down-arrow">
