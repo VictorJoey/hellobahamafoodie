@@ -371,30 +371,52 @@
         border: 3px solid #fff;
         }
 
-        /* Typewriter */
+        /* Typewriter 
         .typewriter{
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  overflow: hidden; Ensures the content is not revealed until the animation
   
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  white-space: nowrap; Keeps the content on a single line
+  margin: 0 auto; Gives that scrolling effect as the typing happens
 
   animation: 
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
-/* The typing effect */
+The typing effect
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
 }
 
-/* The typewriter cursor effect */
+The typewriter cursor effect
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #000; }
-}
+} */
+
+        .typed1, .typed2, .typed3 {
+            display: none;
+        }
+        @media screen and (min-width: 545px) {
+            .typed1 {
+                display: block;
+            }
+        }
+        @media screen and (min-width: 356px) and (max-width: 544px) {
+            .typed2 {
+                display: block;
+            }
+        }
+        @media screen and (max-width: 355px) {
+            .typed3 {
+                display: block;
+            }
+        }
     </style>
+    <!-- Typed.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
     <link rel='stylesheet' id='cookie-law-info-css'
         href='wp-content/plugins/cookie-law-info/public/css/cookie-law-info-public431f.css?ver=2.1.2' type='text/css'
         media='all' />
@@ -732,7 +754,11 @@
                         <div class="">
                           
                             <h1 title="The Plant Kitchen" style="font-size: 11rem;">
-                                 <div class="typewriter"> Feel Good Food</div></h1>
+                                <div class="typed1"></div>
+                                <div class="typed2"></div>
+                                 <div class="typed3"></div>
+                            </h1>
+                            
                             <div class="five-dots-container">
                                 <span class="dot-item"></span>
                                 <span class="dot-item"></span>
@@ -1957,6 +1983,24 @@ Onze dagelijkse missie bij Bahamafoodie: zorgen dat koeien hun leven lang rustig
         <div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
         <div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
         <!--googleon: all-->
+        <!-- Typed.js -->
+        <script type="text/javascript">
+            var typed1 = new Typed('.typed1', {
+                strings: ["FEEL GOOD FOOD"],
+                typeSpeed: 40,
+                startDelay: 1000,
+                });
+            var typed2 = new Typed('.typed2', {
+                strings: ['FEEL GOOD^1000\n `FOOD` ^1000'],
+                typeSpeed: 40,
+                startDelay: 1000,
+            });
+            var typed3 = new Typed('.typed3', {
+                strings: ['FEEL^1000\n `GOOD` ^1000\n `FOOD` ^1000'],
+                typeSpeed: 100,
+                startDelay: 1000,
+            });
+        </script>
         <!-- Instagram Feed JS -->
         <script type="text/javascript">
             var sbiajaxurl = "wp-admin/admin-ajax.html";
