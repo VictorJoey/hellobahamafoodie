@@ -369,6 +369,30 @@
         border-radius: 5px;
         background-color: #ffff00;
         }
+
+        /* Typewriter */
+        .typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #000; }
+}
     </style>
     <link rel='stylesheet' id='cookie-law-info-css'
         href='wp-content/plugins/cookie-law-info/public/css/cookie-law-info-public431f.css?ver=2.1.2' type='text/css'
@@ -442,14 +466,7 @@
                         alt="brand logo" /></a>
 
                 <div class="main-header-mobile-right">
-                    <div class="menu-lang " id="menu-lang">
-                        <a href="#">en</a>
-                        <ul>
-                            <li><a href="fr/index.html" hreflang="fr">fr</a></li>
-                            <li><a href="nl/index.html" hreflang="nl">nl</a></li>
-                            <li><a href="de/index.html" hreflang="de">de</a></li>
-                        </ul>
-                    </div>
+
                     <button class="main-navigation-menu-button" id="main-navigation-menu-button">
                         <p>Menu</p>
                     </button>
@@ -516,14 +533,7 @@
                 <input class="search-bar" type="search" placeholder="Search..">
             </form> -->
                 <span class="topbar-desktop-divider"></span>
-                <div class="menu-lang" id="menu-lang">
-                    <a href="#">en</a>
-                    <ul>
-                        <li><a href="fr/index.html" hreflang="fr">fr</a></li>
-                        <li><a href="nl/index.html" hreflang="nl">nl</a></li>
-                        <li><a href="de/index.html" hreflang="de">de</a></li>
-                    </ul>
-                </div>
+
             </div>
 
             <header class="main-header-desktop grid">
@@ -719,9 +729,9 @@
                 <div class="grid">
                     <div class="hero-section-content-text ">
                         <div class="">
-
-                            <h1 title="The Plant Kitchen" style="font-size: 20rem;">
-                                Feel Good Food</h1>
+                          
+                            <h1 title="The Plant Kitchen" style="font-size: 11rem;">
+                                 <div class="typewriter"> Feel Good Food</div></h1>
                             <div class="five-dots-container">
                                 <span class="dot-item"></span>
                                 <span class="dot-item"></span>
@@ -733,7 +743,7 @@
                                 <span class="dot-item dot-item-tablet"></span>
                                 <span class="dot-item dot-item-tablet"></span>
                             </div>
-                            <h2>Authentic Plant- Based dishes <br /> that taste good and makes you feel good.</h2>
+                            <h2>Delicious, Authentic Plant-Based Food</h2>
                         </div>
                     </div>
                     <a href="#intro-section" id="scroll-down-arrow">
@@ -1579,7 +1589,7 @@ Onze dagelijkse missie bij Bahamafoodie: zorgen dat koeien hun leven lang rustig
                                 href="javascript:void(0)">Bahamafoodie @2022</a></li>
                         <li id="menu-item-5740"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5740"><a
-                                href="https://www.victorjoey.com/">Code by Victor</a></li>
+                                href="https://www.interllo.com/">Powered by Interllo</a></li>
                     </ul>
                     <div class="bottom-footer-socials">
                         <a href="https://www.facebook.com/Bahamafoodie/" target="_blank"><img
