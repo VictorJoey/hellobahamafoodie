@@ -5974,6 +5974,11 @@ body .waves-page-transition-container .waves-page-transition {
 .hero-section .hero-section-content .hero-section-content-text > div {
   padding-top: 150px;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero-section .hero-section-content .hero-section-content-text > div {
+    padding-top: 36px;
+  }
+}
 @media screen and (min-width: 1875px) {
   .hero-section .hero-section-content .hero-section-content-text > div {
     width: 528px;
@@ -6010,7 +6015,7 @@ body .waves-page-transition-container .waves-page-transition {
   .hero-section .hero-section-content .hero-section-content-text h1 {
     font-size: 66px;
     line-height: 48px;
-    word-spacing: -16px;
+    /* word-spacing: -16px; */
   }
 }
 @media (min-width: 1025px) {
