@@ -4156,9 +4156,17 @@ body .waves-page-transition-container .waves-page-transition {
 }
 .intro-section-content .intro-section-title {
   font-family: "Sandman_Fill";
-  line-height: 15rem;
-  word-spacing: 2rem;
+  font-size: 18rem;
+  font-weight: 400;
   margin-bottom: 24px;
+  line-height: 14rem;
+  word-spacing: 1.5rem;
+}
+@media (max-width: 1024px) {
+  .intro-section-content .intro-section-title {
+    font-size: 12rem;
+  line-height: 11rem;
+  }
 }
 
 .spready-saucy-section {
@@ -6026,7 +6034,7 @@ body .waves-page-transition-container .waves-page-transition {
 @media (min-width: 768px) {
   .hero-section .hero-section-content .hero-section-content-text h1 {
     font-size: 66px;
-    line-height: 48px;
+    line-height: 133px;
     /* word-spacing: -16px; */
   }
 }
