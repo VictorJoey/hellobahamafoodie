@@ -3941,23 +3941,23 @@ body .waves-page-transition-container .waves-page-transition {
 
 .intro-section {
   position: relative;
-  padding: 6rem 0 0 0;
+  padding: 6rem 0 20rem 0;
   z-index: 2;
 }
 @media (min-width: 768px) {
   .intro-section {
-    padding: 6rem 0 0 0;
+    padding: 6rem 0 19rem 0;
   }
 }
 @media (min-width: 1025px) {
   .intro-section {
-    padding: 211px 0 0 0;
+    padding: 211px 0;
     margin-bottom: 100px;
   }
 }
 @media (min-width: 1340px) {
   .intro-section {
-    padding: 190px 0 0 0;
+    padding: 190px 0;
   }
 }
 .intro-section #intro-section-deco1 {
