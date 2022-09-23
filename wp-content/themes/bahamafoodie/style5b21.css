@@ -7280,7 +7280,7 @@ body .waves-page-transition-container .waves-page-transition {
   border: none;
   outline: none;
   z-index: 1;
-  padding: 0 16px;
+  padding: 22px 16px;
   color: #000;
   font-family: "Sonder Sans Black Rough";
   letter-spacing: 0.2rem;
@@ -7357,9 +7357,24 @@ body .waves-page-transition-container .waves-page-transition {
   z-index: 1;
   transform: translate(4px, -4px);
 }
-@media (min-width: 1025px) {
+@media (min-width: 769px) {
+  .sign-up-section .sign-up-section-container button #bg-input-btn img {
+    height: 100%;
+    width: auto;
+    transform: translateY(10px) scale(1.04);
+  }
   .sign-up-section .sign-up-section-container button p {
-    transform: translate(3px, -3px);
+    transform: translate(3px, 10px);
+  }
+}
+@media (min-width: 1025px) {
+  .sign-up-section .sign-up-section-container button #bg-input-btn img {
+    height: 100%;
+    width: auto;
+    transform: translateY(12px) scale(1.04);
+  }
+  .sign-up-section .sign-up-section-container button p {
+    transform: translate(3px, 12px);
   }
 }
 
