@@ -841,6 +841,7 @@
 
           <div class="main-header-mobile-right">
             <button
+              type="button"
               class="main-navigation-menu-button"
               id="main-navigation-menu-button"
             >
@@ -1853,7 +1854,7 @@
               Private Catering
             </h3>
 
-            <a href="faq/index" class="cta cta-white magnetic">Booking</a>
+            <a href="booking/" class="cta cta-white magnetic">Booking</a>
           </div>
         </div>
       </section>
@@ -2286,7 +2287,7 @@ Onze dagelijkse missie bij Bahamafoodie: zorgen dat koeien hun leven lang rustig
               <div class="frm_form_fields">
                 <fieldset>
                   <legend class="frm_screen_reader">
-                    Newsletter (country)
+                    Newsletter
                   </legend>
 
                   <div class="frm_fields_container">
@@ -2325,33 +2326,21 @@ Onze dagelijkse missie bij Bahamafoodie: zorgen dat koeien hun leven lang rustig
                       id="frm_field_60_container"
                       class="frm_form_field form-field frm_required_field frm_none_container"
                     >
-                      <label
-                        for="field_djwlu"
-                        id="field_djwlu_label"
-                        class="frm_primary_label"
-                        >Name
-                        <span class="frm_required" aria-hidden="true">*</span>
-                      </label>
-                      <select
-                        name="item_meta[60]"
-                        id="field_djwlu"
-                        data-placeholder="Country"
-                        data-frmval="BE"
-                        data-frmplaceholder="Country"
-                        placeholder="Country"
-                        data-reqmsg="This field can not be empty"
-                        aria-required="true"
-                        data-invmsg="Country is invalid"
-                        aria-invalid="false"
-                      >
-                        <option value="">Country</option>
-                        <option value="BE" selected="selected">Bahama</option>
-                        <option value="FR">France</option>
-                        <option value="NL">Netherlands</option>
-                        <option value="DE">Germany</option>
-                        <option value="Other">Other</option>
-                      </select>
-
+                      <div class="input-container">
+                        <div id="bg-input"></div>
+                        <input
+                          type="text"
+                          id="field_djwlu"
+                          name="item_meta[60]"
+                          value=""
+                          placeholder="Name"
+                          data-reqmsg="This field can not be empty"
+                          aria-required="true"
+                          data-invmsg="Input is not valid"
+                          aria-invalid="false"
+                        />
+                      </div>
+                    </div>
                     <div
                       id="frm_field_58_container"
                       class="frm_required_field frm_top_container"
@@ -2388,16 +2377,14 @@ Onze dagelijkse missie bij Bahamafoodie: zorgen dat koeien hun leven lang rustig
                       name="frm_state"
                       type="hidden"
                       value="+Sm2O/el36sz6wYbzdVesHTe8ccKNw8FWjEahFGtHMk="
-                    />
-                    <button
+                    /><button
                       type="submit"
                       class="frm_final_submit"
                       formnovalidate="formnovalidate"
                     >
                       <div id="bg-input-btn">
                         <img
-                          src="wp-content/themes/bahamafoodie/svg/SignUpSection/bg-signup-btn.svg"
-                          alt=""
+                          src="../wp-content/themes/bahamafoodie/svg/SignUpSection/bg-signup-btn.svg"
                         />
                       </div>
                       <p>submit</p>
@@ -2430,25 +2417,25 @@ Onze dagelijkse missie bij Bahamafoodie: zorgen dat koeien hun leven lang rustig
                       id="menu-item-67"
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"
                     >
-                      <a href="our-products/index">Dishes</a>
+                      <a href="our-products/">Dishes</a>
                     </li>
                     <li
                       id="menu-item-66"
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"
                     >
-                      <a href="booking/index.html">Private Catering</a>
+                      <a href="booking/">Private Catering</a>
                     </li>
                     <li
                       id="menu-item-66"
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"
                     >
-                      <a href="meet-us/index.html">Get to know us</a>
+                      <a href="meet-us/">Get to know us</a>
                     </li>
                     <li
                       id="menu-item-1326"
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1326"
                     >
-                      <a href="contact/index">Contact</a>
+                      <a href="contact-edit/">Contact</a>
                     </li>
                     
                     <!-- <li
