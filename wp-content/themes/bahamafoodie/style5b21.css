@@ -17344,6 +17344,7 @@ html:lang(nl-BE) #cookie-law-info-bar .cli-bar-container .cli-bar-btn_container 
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   font-weight: 400;
   font-size: 16px;
   color: #000;
@@ -17387,8 +17388,8 @@ html:lang(nl-BE) #cookie-law-info-bar .cli-bar-container .cli-bar-btn_container 
 
 .thank-you-container .return-home-btn {
   font-family: "Sonder Sans Black Rough";
-  border-radius: 4rem;
-  color: #ffff00;
+  border-radius: 2px;
+  color: #fff;
   background-color: #000;
   padding: 2rem 6rem;
   margin-top: 5rem;
@@ -17398,7 +17399,7 @@ html:lang(nl-BE) #cookie-law-info-bar .cli-bar-container .cli-bar-btn_container 
 .thank-you-container .return-home-btn:hover {
   background-color: #ffff00;
   color: #000;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .thank-you-container .return-home-btn:active {
@@ -17467,13 +17468,13 @@ html:lang(nl-BE) #cookie-law-info-bar .cli-bar-container .cli-bar-btn_container 
   transition: all 0.2s ease-in-out;
 }
 .whatsapp-float:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .whatsapp-float:active {
   transform: scale(.8);
 }
 .whatsapp-float img {
-  opacity: 0.75;
+  opacity: 0.85;
   transition: all 0.2s ease-in-out;
 }
 .whatsapp-float img:hover {
