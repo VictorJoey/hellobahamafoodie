@@ -46,7 +46,7 @@
     <!-- <link rel="shortcut icon" href="https://www.bahamafoodie.com/wp-content/themes/bahamafoodie/favicon.png" type="image/x-icon"> -->
 
     <!-- All in One SEO 4.2.4 - aioseo.com -->
-    <title>Private Catering Booking - Bahamafoodie</title>
+    <title>Private Catering - Bahamafoodie</title>
     <meta
       name="description"
       content="Whether you&#039;re looking for information or just want to contact us. Tell us how we can help you and we&#039;ll get back to you ASAP !"
@@ -733,13 +733,16 @@
       name="twitter:image"
       content="https://www.bahamafoodie.com/wp-content/themes/bahamafoodie/img/socialshare.jpg"
     />
+
+    <!-- Order online popup -->
+    <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
   </head>
 
   <body
     class="page-template page-template-page-contact page-template-page-contact-php page page-id-51 preload"
   >
     <main class="en-GB">
-      <!-- ******** TOP BAR + HEADER  MOBILE  ******** -->
+      <!-- ******** TOP BAR + HEADER MOBILE ******** -->
       <div class="topbar-main-header-mobile">
         <header class="main-header grid" id="main-header">
           <a class="brand-logo" href="../index.html"
@@ -750,6 +753,7 @@
 
           <div class="main-header-mobile-right">
             <button
+              type="button"
               class="main-navigation-menu-button"
               id="main-navigation-menu-button"
             >
@@ -761,89 +765,90 @@
 
         <nav class="main-navigation" id="main-navigation">
           <div class="grid">
-            <!--                 <div class="search-bar-container">
+            <!-- <div class="search-bar-container">
                     <button type="submit" class="search-bar-button"></button>
                     <input class="search-bar" type="text" placeholder="Search">
                 </div> -->
             <ul id="menu-mobile-menu" class="main-navigation-list">
               <!-- <li id="menu-item-259"
-							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259"><a
-								href="../get-inspired/index.html">Recipes </a></li> -->
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259">
+                            <a href="get-inspired/index" >Recipes </a></li> -->
               <li
                 id="menu-item-262"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-262"
               >
-                <a href="../our-products/index.html">Dishes</a>
+                <a href="../our-products(edit)">Dishes</a>
                 <ul class="sub-menu">
                   <li
                     id="menu-item-264"
                     class="menu-item menu-item-type-taxonomy menu-item-object-product_type menu-item-264"
                   >
-                    <a href="../product-type/bahamafoodie-spreads/index.html"
-                      >Pa&#8217;lais Spreads</a
+                    <a href="../product-type/bahamafoodie-spreads/index"
+                      >Mondays & Wednesdays</a
                     >
                   </li>
                   <li
                     id="menu-item-263"
                     class="menu-item menu-item-type-taxonomy menu-item-object-product_type menu-item-263"
                   >
-                    <a href="../product-type/bahamafoodie-sauces/index.html"
-                      >Pa&#8217;lais Sauces</a
-                    >
+                    <a href="../product-type/palais-sauces/">Fridays</a>
                   </li>
                 </ul>
+              </li>
+              <li
+                id="menu-item-66"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"
+              >
+                <a href="../booking/">Private Catering</a>
               </li>
               <li
                 id="menu-item-261"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-261"
               >
-                <a href="../for-a-better-world/index.html">Meet us</a>
+                <a href="../meet-us/">Get to know us</a>
               </li>
               <li
                 id="menu-item-260"
-                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-51 current_page_item menu-item-260"
+                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-260"
               >
-                <a href="index.html" aria-current="page">Contact</a>
+                <a href="../contact-edit/">Contact</a>
               </li>
             </ul>
             <a
-              href="https://hellobahamafoodie.com/shop"
-              class="cta-store-locator"
+              href="javascript:void(0)"
+              class="glf-button cta-store-locator wiggling-button"
+              data-glf-cuid="dab12b62-9be0-4b44-9166-de32484977e9"
+              data-glf-ruid="37e83da4-13ec-4b89-891e-5b287aeae449"
             >
               Order Online
             </a>
           </div>
           <!-- <ul id="menu-upper-menu" class="for-profesionals">
-					<li id="menu-item-5738"
-						class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5738"><a
-							href="../for-professionals/index.html">Services</a></li>
-				</ul> -->
+            <li
+              id="menu-item-5738"
+              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5738"
+            >
+              <a href="booking/index.html">Services</a>
+            </li>
+          </ul> -->
         </nav>
       </div>
 
-      <!-- ******** TOP BAR + HEADER  DESKTOP  ******** -->
+      <!-- ******** TOP BAR + HEADER DESKTOP ******** -->
       <div class="topbar-main-header-desktop">
-        <!-- <div class="topbar-desktop topbar-desktop-blue grid">
-          <ul id="menu-upper-menu-1" class="for-profesionals">
-					<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5738"><a
-							href="../for-professionals/index.html">Services</a></li>
-				</ul> 
-          <a class="for-profesionals">Services</a>
-          <span class="topbar-desktop-divider"></span>
-                      <form class="search-bar-container">
+        <!-- <div class="topbar-desktop grid">
+                <ul id="menu-upper-menu-1" class="for-profesionals">
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5738"><a
+                            href="booking/index.html">Services</a></li>
+                </ul> <a class="for-profesionals">Services</a>
+                <span class="topbar-desktop-divider"></span>
+                            <form class="search-bar-container">
                 <div id="magnifying-glass-search-bar"></div>
                 <input class="search-bar" type="search" placeholder="Search..">
-            </form>
-          <span class="topbar-desktop-divider"></span>
-          <div class="menu-lang" id="menu-lang">
-            <a href="#">en</a>
-            <ul>
-              <li><a href="../fr/contact/index.html" hreflang="fr">fr</a></li>
-              <li><a href="../nl/contact/index.html" hreflang="nl">nl</a></li>
-              <li><a href="../de/kontakt/index.html" hreflang="de">de</a></li>
-            </ul>
-          </div>
-        </div> -->
+                </form>
+                <span class="topbar-desktop-divider"></span>
+
+            </div> -->
 
         <header class="main-header-desktop grid">
           <div class="l-col-4 d-col-7">
@@ -860,165 +865,131 @@
             <div class="l-col-14 d-col-13 right">
               <ul id="menu-main-menu" class="main-navigation-list">
                 <!-- <li class='dropdown-recipes menu-item menu-item-type-post_type menu-item-object-page'><a
-									href="../get-inspired/index.html" class="menu-item-dropdown-title">Recipes </a>
-								<div class="menu-item-sub-wrapper-inspired grid">
-									<div class="menu-item-sub">
-										<div class="sub-plates-nav">
-											<h1>Dishes</h1>
-											<ul class="plates-container">
-												<li><a class="plate-nav-item"
-														href="../get-inspired/index22ca.html?category_name=starter">Starter</a>
-												</li>
-												<li><a class="plate-nav-item"
-														href="../get-inspired/indexb4f3.html?category_name=breakfast">Breakfast</a>
-												</li>
-												<li><a class="plate-nav-item"
-														href="../get-inspired/indexa06e.html?category_name=soups">Soups</a>
-												</li>
-												<li><a class="plate-nav-item"
-														href="../get-inspired/index7b89.html?category_name=salad">Salad</a>
-												</li>
-												<li><a class="plate-nav-item"
-														href="../get-inspired/index465a.html?category_name=main">Main</a>
-												</li>
-												<li><a class="plate-nav-item"
-														href="../get-inspired/index7a62.html?category_name=snacks">Snacks</a>
-												</li>
-												<li><a class="plate-nav-item"
-														href="../get-inspired/indexa3a2.html?category_name=desserts">Desserts</a>
-												</li>
-											</ul>
-										</div>
-										<div class="last-recipes">
-											<h1>our last recipes</h1>
-											<div class="last-recipes-wrapper"><a class="last-recipe-item"
-													href="../colourful-citrus-salad-with-pistachio-palais-cheese-balls/index.html">
-													<div class="pic-wrapper"><img width="480" height="720"
-															src="../wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-%c2%a9FoodLove-07236-480x720.jpg"
-															class="attachment-medium size-medium" alt="" loading="lazy"
-															srcset="https://www.bahamafoodie.com/wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-©FoodLove-07236-480x720.jpg 480w, https://www.bahamafoodie.com/wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-©FoodLove-07236-1024x1536.jpg 1024w, https://www.bahamafoodie.com/wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-©FoodLove-07236-200x300.jpg 200w, https://www.bahamafoodie.com/wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-©FoodLove-07236-768x1152.jpg 768w, https://www.bahamafoodie.com/wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-©FoodLove-07236-1365x2048.jpg 1365w, https://www.bahamafoodie.com/wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-©FoodLove-07236-scaled.jpg 1707w"
-															sizes="(max-width: 480px) 100vw, 480px" /></div>
-													<div class="text-wrapper">Colourful citrus salad with pistachio
-														Pa&#8217;lais cheese-balls</div>
-												</a><a class="last-recipe-item"
-													href="../savoury-crepes-with-grilled-vegetables-and-a-touch-of-pepper/index.html">
-													<div class="pic-wrapper"><img width="480" height="720"
-															src="../wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-480x720.jpg"
-															class="attachment-medium size-medium" alt="" loading="lazy"
-															srcset="https://www.bahamafoodie.com/wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-480x720.jpg 480w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-1024x1536.jpg 1024w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-200x300.jpg 200w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-768x1152.jpg 768w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-1365x2048.jpg 1365w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-scaled.jpg 1707w"
-															sizes="(max-width: 480px) 100vw, 480px" /></div>
-													<div class="text-wrapper">Savoury crêpes with grilled vegetables and
-														a touch of pepper</div>
-												</a><a class="last-recipe-item"
-													href="../sourdough-toast-with-roasted-vegetables/index.html">
-													<div class="pic-wrapper"><img width="480" height="720"
-															src="../wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-%c2%a9FoodLove-06446-480x720.jpg"
-															class="attachment-medium size-medium" alt="" loading="lazy"
-															srcset="https://www.bahamafoodie.com/wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-©FoodLove-06446-480x720.jpg 480w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-©FoodLove-06446-1024x1536.jpg 1024w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-©FoodLove-06446-200x300.jpg 200w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-©FoodLove-06446-768x1152.jpg 768w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-©FoodLove-06446-1365x2048.jpg 1365w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-©FoodLove-06446-scaled.jpg 1707w"
-															sizes="(max-width: 480px) 100vw, 480px" /></div>
-													<div class="text-wrapper">Sourdough toast with roasted vegetables
-													</div>
-												</a><a class="last-recipe-item"
-													href="../loaded-nachos-with-minced-seitan-tomato-jalapeno-salsa-and-cheesy-sauce/index.html">
-													<div class="pic-wrapper"><img width="480" height="720"
-															src="../wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-480x720.jpg"
-															class="attachment-medium size-medium" alt="" loading="lazy"
-															srcset="https://www.bahamafoodie.com/wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-480x720.jpg 480w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-1024x1536.jpg 1024w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-200x300.jpg 200w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-768x1152.jpg 768w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-1365x2048.jpg 1365w, https://www.bahamafoodie.com/wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-scaled.jpg 1707w"
-															sizes="(max-width: 480px) 100vw, 480px" /></div>
-													<div class="text-wrapper">Loaded nachos with minced seitan,
-														tomato-jalapeno salsa and cheesy sauce</div>
-												</a></div>
-										</div>
-									</div>
-								</div>
-							</li> -->
+                                    href="get-inspired/index" class="menu-item-dropdown-title">Recipes </a>
+                                <div class="menu-item-sub-wrapper-inspired grid">
+                                    <div class="menu-item-sub">
+                                        <div class="sub-plates-nav">
+                                            <h1>Dishes</h1>
+                                            <ul class="plates-container">
+                                                <li><a class="plate-nav-item"
+                                                        href="get-inspired/index22ca.html?category_name=starter">Starter</a>
+                                                </li>
+                                                <li><a class="plate-nav-item"
+                                                        href="get-inspired/indexb4f3.html?category_name=breakfast">Breakfast</a>
+                                                </li>
+                                                <li><a class="plate-nav-item"
+                                                        href="get-inspired/indexa06e.html?category_name=soups">Soups</a>
+                                                </li>
+                                                <li><a class="plate-nav-item"
+                                                        href="get-inspired/index7b89.html?category_name=salad">Salad</a>
+                                                </li>
+                                                <li><a class="plate-nav-item"
+                                                        href="get-inspired/index465a.html?category_name=main">Main</a>
+                                                </li>
+                                                <li><a class="plate-nav-item"
+                                                        href="get-inspired/index7a62.html?category_name=snacks">Snacks</a>
+                                                </li>
+                                                <li><a class="plate-nav-item"
+                                                        href="get-inspired/indexa3a2.html?category_name=desserts">Desserts</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="last-recipes">
+                                            <h1>our recipes</h1>
+                                            <div class="last-recipes-wrapper"><a class="last-recipe-item"
+                                                    href="colourful-citrus-salad-with-pistachio-palais-cheese-balls/index">
+                                                    <div class="pic-wrapper"><img width="480" height="720"
+                                                            src="wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-%c2%a9FoodLove-07236-480x720.jpg"
+                                                            class="attachment-medium size-medium" alt="" loading="lazy"
+                                                            srcset="https://www.hellobahamafoodie.com/wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-©FoodLove-07236-480x720.jpg 480w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-©FoodLove-07236-1024x1536.jpg 1024w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-©FoodLove-07236-200x300.jpg 200w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-©FoodLove-07236-768x1152.jpg 768w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-©FoodLove-07236-1365x2048.jpg 1365w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/08/Garlic-_-Fine-Herbs-Citrus-Salad-©FoodLove-07236-scaled.jpg 1707w"
+                                                            sizes="(max-width: 480px) 100vw, 480px" /></div>
+                                                    <div class="text-wrapper">Colourful citrus salad with pistachio
+                                                        Pa’lais cheese-balls</div>
+                                                </a><a class="last-recipe-item"
+                                                    href="savoury-crepes-with-grilled-vegetables-and-a-touch-of-pepper/index">
+                                                    <div class="pic-wrapper"><img width="480" height="720"
+                                                            src="wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-480x720.jpg"
+                                                            class="attachment-medium size-medium" alt="" loading="lazy"
+                                                            srcset="https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-480x720.jpg 480w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-1024x1536.jpg 1024w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-200x300.jpg 200w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-768x1152.jpg 768w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-1365x2048.jpg 1365w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Savoury-crepes-with-Palais-Black-Pepper-roasted-bell-pepper-fresh-herbs-and-salad-mix-10-5-LR-scaled.jpg 1707w"
+                                                            sizes="(max-width: 480px) 100vw, 480px" /></div>
+                                                    <div class="text-wrapper">Savoury crêpes with grilled vegetables and
+                                                        a touch of pepper</div>
+                                                </a><a class="last-recipe-item"
+                                                    href="sourdough-toast-with-roasted-vegetables/index">
+                                                    <div class="pic-wrapper"><img width="480" height="720"
+                                                            src="wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-%c2%a9FoodLove-06446-480x720.jpg"
+                                                            class="attachment-medium size-medium" alt="" loading="lazy"
+                                                            srcset="https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-©FoodLove-06446-480x720.jpg 480w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-©FoodLove-06446-1024x1536.jpg 1024w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-©FoodLove-06446-200x300.jpg 200w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-©FoodLove-06446-768x1152.jpg 768w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-©FoodLove-06446-1365x2048.jpg 1365w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Foto-Palais-Spread-Garlic-Herbs-Toast-©FoodLove-06446-scaled.jpg 1707w"
+                                                            sizes="(max-width: 480px) 100vw, 480px" /></div>
+                                                    <div class="text-wrapper">Sourdough toast with roasted vegetables
+                                                    </div>
+                                                </a><a class="last-recipe-item"
+                                                    href="loaded-nachos-with-minced-seitan-tomato-jalapeno-salsa-and-cheesy-sauce/index">
+                                                    <div class="pic-wrapper"><img width="480" height="720"
+                                                            src="wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-480x720.jpg"
+                                                            class="attachment-medium size-medium" alt="" loading="lazy"
+                                                            srcset="https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-480x720.jpg 480w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-1024x1536.jpg 1024w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-200x300.jpg 200w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-768x1152.jpg 768w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-1365x2048.jpg 1365w, https://www.hellobahamafoodie.com/wp-content/uploads/2022/06/Sauce-Alfredo-Loaded-Nachos-DSC08934-scaled.jpg 1707w"
+                                                            sizes="(max-width: 480px) 100vw, 480px" /></div>
+                                                    <div class="text-wrapper">Loaded nachos with minced seitan,
+                                                        tomato-jalapeno salsa and cheesy sauce</div>
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li> -->
                 <li
                   class="dropdown-products menu-item menu-item-type-post_type menu-item-object-page"
                 >
-                  <a
-                    href="../our-products/index.html"
-                    class="menu-item-dropdown-title"
+                  <a href="../our-products(edit)/" class="menu-item-dropdown-title"
                     >Dishes</a
                   >
                   <div class="menu-item-sub-wrapper-products">
                     <div class="menu-item-sub">
                       <a
-                        href="../product-type/bahamafoodie-spreads/index.html"
+                        href="../product-type/palais-spreads/"
                         class="menu-item-wrapper"
                       >
-                        <h1>Pa'lais Spreads</h1>
+                        <h1>Mondays & <br />Wednesdays</h1>
                         <div class="menu-item-picture">
                           <img
                             width="200"
                             height="211"
-                            src="../wp-content/uploads/2021/03/bahamafoodie-Spread-Garlic-Fine-Herbs-Packshot-RGB-Transp-Schaduw-200x211.png"
+                            src="../wp-content/uploads/dishes/dish1.png"
                             class="attachment-thumbnail size-thumbnail"
                             alt=""
                             loading="lazy"
-                            srcset="
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Spread-Garlic-Fine-Herbs-Packshot-RGB-Transp-Schaduw-200x211.png    200w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Spread-Garlic-Fine-Herbs-Packshot-RGB-Transp-Schaduw-480x507.png    480w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Spread-Garlic-Fine-Herbs-Packshot-RGB-Transp-Schaduw-1024x1082.png 1024w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Spread-Garlic-Fine-Herbs-Packshot-RGB-Transp-Schaduw-768x812.png    768w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Spread-Garlic-Fine-Herbs-Packshot-RGB-Transp-Schaduw-1453x1536.png 1453w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Spread-Garlic-Fine-Herbs-Packshot-RGB-Transp-Schaduw-1937x2048.png 1937w
-                            "
                             sizes="(max-width: 200px) 100vw, 200px"
                           /><img
                             width="200"
                             height="211"
-                            src="../wp-content/uploads/2022/03/bahamafoodie-Spread-Black-Pepper-sleeve-125g-Packshot-montage-Perspectief-RGB-Transp-Schaduw-200x211.png"
+                            src="../wp-content/uploads/dishes/dish2.png"
                             class="attachment-thumbnail size-thumbnail"
                             alt=""
                             loading="lazy"
-                            srcset="
-                              https://www.bahamafoodie.com/wp-content/uploads/2022/03/bahamafoodie-Spread-Black-Pepper-sleeve-125g-Packshot-montage-Perspectief-RGB-Transp-Schaduw-200x211.png    200w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2022/03/bahamafoodie-Spread-Black-Pepper-sleeve-125g-Packshot-montage-Perspectief-RGB-Transp-Schaduw-480x507.png    480w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2022/03/bahamafoodie-Spread-Black-Pepper-sleeve-125g-Packshot-montage-Perspectief-RGB-Transp-Schaduw-1024x1082.png 1024w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2022/03/bahamafoodie-Spread-Black-Pepper-sleeve-125g-Packshot-montage-Perspectief-RGB-Transp-Schaduw-768x812.png    768w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2022/03/bahamafoodie-Spread-Black-Pepper-sleeve-125g-Packshot-montage-Perspectief-RGB-Transp-Schaduw-1453x1536.png 1453w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2022/03/bahamafoodie-Spread-Black-Pepper-sleeve-125g-Packshot-montage-Perspectief-RGB-Transp-Schaduw-1937x2048.png 1937w
-                            "
                             sizes="(max-width: 200px) 100vw, 200px"
                           />
                         </div> </a
                       ><a
-                        href="../product-type/bahamafoodie-sauces/index.html"
+                        href="../product-type/bahamafoodie-sauces/index"
                         class="menu-item-wrapper"
                       >
-                        <h1>Pa'lais Sauces</h1>
+                        <h1>Fridays</h1>
                         <div class="menu-item-picture">
                           <img
                             width="200"
                             height="211"
-                            src="../wp-content/uploads/2021/03/bahamafoodie-Saus-Bechamel-sleeve-400ml-Packshot-RGB-Transp-Schaduw-200x211.png"
+                            src="../wp-content/uploads/dishes/dish3.png"
                             class="attachment-thumbnail size-thumbnail"
                             alt=""
                             loading="lazy"
-                            srcset="
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Saus-Bechamel-sleeve-400ml-Packshot-RGB-Transp-Schaduw-200x211.png    200w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Saus-Bechamel-sleeve-400ml-Packshot-RGB-Transp-Schaduw-480x507.png    480w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Saus-Bechamel-sleeve-400ml-Packshot-RGB-Transp-Schaduw-1024x1082.png 1024w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Saus-Bechamel-sleeve-400ml-Packshot-RGB-Transp-Schaduw-768x812.png    768w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Saus-Bechamel-sleeve-400ml-Packshot-RGB-Transp-Schaduw-1453x1536.png 1453w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Saus-Bechamel-sleeve-400ml-Packshot-RGB-Transp-Schaduw-1937x2048.png 1937w
-                            "
                             sizes="(max-width: 200px) 100vw, 200px"
                           /><img
                             width="200"
                             height="211"
-                            src="../wp-content/uploads/2021/03/bahamafoodie-Saus-Alfredo-sleeve-400ml-Packshot-RGB-Transp-Schaduw-200x211.png"
+                            src="../wp-content/uploads/dishes/dish4.png"
                             class="attachment-thumbnail size-thumbnail"
                             alt=""
                             loading="lazy"
-                            srcset="
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Saus-Alfredo-sleeve-400ml-Packshot-RGB-Transp-Schaduw-200x211.png    200w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Saus-Alfredo-sleeve-400ml-Packshot-RGB-Transp-Schaduw-480x507.png    480w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Saus-Alfredo-sleeve-400ml-Packshot-RGB-Transp-Schaduw-1024x1082.png 1024w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Saus-Alfredo-sleeve-400ml-Packshot-RGB-Transp-Schaduw-768x812.png    768w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Saus-Alfredo-sleeve-400ml-Packshot-RGB-Transp-Schaduw-1453x1536.png 1453w,
-                              https://www.bahamafoodie.com/wp-content/uploads/2021/03/bahamafoodie-Saus-Alfredo-sleeve-400ml-Packshot-RGB-Transp-Schaduw-1937x2048.png 1937w
-                            "
                             sizes="(max-width: 200px) 100vw, 200px"
                           />
                         </div>
@@ -1027,14 +998,20 @@
                   </div>
                 </li>
                 <li
-                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                  id="menu-item-66"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"
                 >
-                  <a href="../for-a-better-world/index.html">Meet us</a>
+                  <a href="../booking/">Private Catering</a>
                 </li>
                 <li
-                  class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-51 current_page_item"
+                  class="menu-item menu-item-type-post_type menu-item-object-page"
                 >
-                  <a href="index.html">Contact</a>
+                  <a href="../meet-us/">Get to know us</a>
+                </li>
+                <li
+                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                >
+                  <a href="../contact-edit/">Contact</a>
                 </li>
               </ul>
             </div>
@@ -1053,12 +1030,18 @@
               </clipPath>
             </svg>
 
-            <a href="../store-locator/index.html" class="cta-store-locator">
+            <a
+              href="javascript:void(0)"
+              class="glf-button cta-store-locator wiggling-button"
+              data-glf-cuid="dab12b62-9be0-4b44-9166-de32484977e9"
+              data-glf-ruid="37e83da4-13ec-4b89-891e-5b287aeae449"
+            >
               Order Online
             </a>
           </nav>
         </header>
       </div>
+
 
       <!-- ******** FORM SECTION  ******** -->
       <section class="form-section">
@@ -1080,7 +1063,7 @@
                     />
                   </svg>
                 </div>
-                <span>Private Catering<br /></span>Booking
+                <span>Private Catering<br /></span>
               </h1>
               <div
                 class="form-text-content-sub-title t-col-15 l-col-13 d-col-12"
@@ -1607,7 +1590,7 @@
                   <path
                     opacity="0.4"
                     d="M431.073 541.997C381.653 511.207 383.003 432.287 321.503 416.727C224.443 423.867 201.233 337.817 136.003 292.617C90.6133 267.087 14.6733 264.887 3.57334 202.177C-17.6267 88.0867 58.2633 41.8467 158.153 23.5767C534.153 -54.1233 360.043 79.4567 607.333 146.707C692.243 202.787 701.503 341.307 688.283 443.047C667.633 566.167 513.003 597.997 431.073 541.997Z"
-                    fill="#F5B7C9"
+                    fill="#FFFF00"
                   />
                 </svg>
               </div>
@@ -1626,29 +1609,30 @@
           >
             <path
               d="M118.1 114.6C114.4 112.9 110.4 114.3 107 115.8C87.7 124.3 69.2 134.2 51.8 145.2C42.5 151.1 33.2 157.7 28.6 167.2C31.3 161.6 62.4 150 69.5 146.3C86.9 137.1 103.2 126.6 118.1 114.6Z"
-              fill="#F5B7C9"
+              fill="#FFFF00"
             />
             <path
               d="M229.3 37.6C226 37.6 223 38.9 220.1 40.1C183.1 55.5 138.7 71 111.4 98.2C126.9 103.8 158.4 82.6 170.9 76C191.8 64.8 211.4 52 229.3 37.6Z"
-              fill="#F5B7C9"
+              fill="#FFFF00"
             />
             <path
               d="M51.1 114.3C69.7 98.4 88.6 82.8 110.5 70.5C114.2 68.4 116 62.2 111.5 60.7C108.7 59.7 106.2 61.7 104.4 63.5C96.7 71.2 90.6 78 81 83.1C72.3 87.8 62.4 89.1 55.8 96.6C53.4 99.3 51.7 102.4 49.4 105.1C43.6 112 34.7 116.2 26.9 121.3C15.7 128.7 6.5 138.2 0 149.2C21.6 141.3 34.5 128.5 51.1 114.3Z"
-              fill="#F5B7C9"
+              fill="#FFFF00"
             />
             <path
               d="M42.3 85.9C67.8 69.9 101.3 61.7 118.6 38.4C107.8 41.9 99.6 49.2 89.6 54.1C77.1 60.2 62.1 62.2 49.1 67.6C37.9 72.2 23.5 82.6 26.5 95.4C32.3 93.3 37 89.3 42.3 85.9Z"
-              fill="#F5B7C9"
+              fill="#FFFF00"
             />
             <path
               d="M187.1 21.2C194.2 15.2 201.5 8.7 203.9 0C192.7 14 177.9 25.5 160.7 33.6C156.8 35.5 120.4 57.7 143.1 57.7C154.7 57.7 178.8 28.3 187.1 21.2Z"
-              fill="#F5B7C9"
+              fill="#FFFF00"
             />
           </svg>
         </div>
         <div id="sauce-trail">
           <img
             src="../wp-content/themes/bahamafoodie/media/Pictures/Contact/sauces-trail.png"
+            alt=" "
           />
         </div>
       </section>
@@ -1687,15 +1671,6 @@
               ><img
                 src="../wp-content/themes/bahamafoodie/svg/Socials/instagram-blue.svg"
                 alt="Instagram"
-            /></a>
-            <a
-              href="https://www.linkedin.com/company/pa-lais/"
-              class="circle-button white"
-              target="_blank"
-              rel="noopener"
-              ><img
-                src="../wp-content/themes/bahamafoodie/svg/Socials/linkedin-blue.svg"
-                alt="Linkedin"
             /></a>
             <a
               href="https://vm.tiktok.com/ZMFeNKqSr/"
@@ -1739,9 +1714,10 @@
         </div>
         <div class="sign-up-section-container grid">
           <h2>
-            FREE TINGS!<span
-              >Join our mailing list to get our introductory Plant-Based
-              Guide.</span
+            Let’s keep in touch!<span
+              >There’s plenty of room in our Family for you, we invite you to
+              hang with us and be inspired by the diverse mouthwatering inspo
+              meals we cook.</span
             >
           </h2>
           <div
@@ -1759,7 +1735,7 @@
               <div class="frm_form_fields">
                 <fieldset>
                   <legend class="frm_screen_reader">
-                    Newsletter (country)
+                    Newsletter
                   </legend>
 
                   <div class="frm_fields_container">
@@ -1795,35 +1771,23 @@
                       data-invmsg="Lang is invalid"
                     />
                     <div
-                      id="frm_field_60_container"
-                      class="frm_form_field form-field frm_required_field frm_none_container"
+                      id="frm_field_58_container"
+                      class="frm_required_field frm_top_container"
                     >
-                      <label
-                        for="field_djwlu"
-                        id="field_djwlu_label"
-                        class="frm_primary_label"
-                        >Country
-                        <span class="frm_required" aria-hidden="true">*</span>
-                      </label>
-                      <select
-                        name="item_meta[60]"
-                        id="field_djwlu"
-                        data-placeholder="Country"
-                        data-frmval="BE"
-                        data-frmplaceholder="Country"
-                        placeholder="Country"
-                        data-reqmsg="This field can not be empty"
-                        aria-required="true"
-                        data-invmsg="Country is invalid"
-                        aria-invalid="false"
-                      >
-                        <option value="">Country</option>
-                        <option value="BE" selected="selected">Bahama</option>
-                        <option value="FR">France</option>
-                        <option value="NL">Netherlands</option>
-                        <option value="DE">Germany</option>
-                        <option value="Other">Other</option>
-                      </select>
+                      <div class="input-container">
+                        <div id="bg-input"></div>
+                        <input
+                          type="text"
+                          id="field_im2fj1247289377"
+                          name="item_meta[58]"
+                          value=""
+                          placeholder="Name"
+                          data-reqmsg="This field can not be empty"
+                          aria-required="true"
+                          data-invmsg="Input is not valid"
+                          aria-invalid="false"
+                        />
+                      </div>
                     </div>
                     <div
                       id="frm_field_58_container"
@@ -1869,6 +1833,7 @@
                       <div id="bg-input-btn">
                         <img
                           src="../wp-content/themes/bahamafoodie/svg/SignUpSection/bg-signup-btn.svg"
+                          alt=""
                         />
                       </div>
                       <p>submit</p>
@@ -1885,7 +1850,7 @@
         <div class="grid">
           <div class="main-footer">
             <div class="main-footer-content">
-              <a class="brand-logo" href="../index.html"
+              <a class="brand-logo" href="index.html"
                 ><img
                   src="../wp-content/themes/bahamafoodie/svg/brand-logo-negative.svg"
                   alt="brand logo"
@@ -1895,38 +1860,45 @@
                 <div class="footer-menu">
                   <h3>Menu</h3>
                   <ul id="menu-footer-menu" class="nav-footer-links">
-                    <li
-                      id="menu-item-68"
-                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"
-                    >
-                      <a href="../get-inspired/index.html">Recipes </a>
-                    </li>
+                    <!-- <li id="menu-item-68"
+                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a
+                                            href="get-inspired/index">Recipes </a></li> -->
                     <li
                       id="menu-item-67"
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"
                     >
-                      <a href="../our-products/index.html">Dishes</a>
+                      <a href="../our-products/">Dishes</a>
                     </li>
                     <li
                       id="menu-item-66"
                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"
                     >
-                      <a href="../for-a-better-world/index.html">Meet us</a>
+                      <a href="../booking/">Private Catering</a>
+                    </li>
+                    <li
+                      id="menu-item-66"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"
+                    >
+                      <a href="../meet-us/">Get to know us</a>
                     </li>
                     <li
                       id="menu-item-1326"
-                      class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-51 current_page_item menu-item-1326"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1326"
                     >
-                      <a href="../contact/index.html" aria-current="page"
-                        >Contact</a
-                      >
+                      <a href="../contact-edit/">Contact</a>
                     </li>
 
-                    <!-- <li id="menu-item-318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-318"><a href="../faq/index.html">FAQ</a></li> -->
+                    <li
+                      id="menu-item-318"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-318"
+                    >
+                    <a href="../faq(edit)/">FAQ</a>
+                    </li>
                     <!-- <li id="menu-item-5746"
-										class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5746">
-										<a href="../for-professionals/index.html">Services</a>
-									</li> -->
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5746">
+                    <a href="booking/index.html">Services</a>
+                    </li> -->
+                    <!-- </li> -->
                   </ul>
                 </div>
 
@@ -1971,42 +1943,42 @@
                 id="menu-item-70"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70"
               >
-                <a href="">Bahamafoodie @2022</a>
+                <a href="#">Bahamafoodie @2022</a>
               </li>
-              <li
+              <!-- <li
                 id="menu-item-1130"
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1130"
               >
                 <a href="../privacy-policy/index.html">Privacy policy</a>
-              </li>
+              </li> -->
               <li
                 id="menu-item-5740"
                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5740"
               >
-                <a href="https://victorjoey.com/">Code by Victor</a>
+                <a href="https://wowpage.design/">Powered by wowpage</a>
               </li>
             </ul>
             <div class="bottom-footer-socials">
               <a
-                href="https://www.facebook.com/bahamafoodie.bio/"
+                href="https://www.facebook.com/Bahamafoodie/"
                 target="_blank"
+                rel="noopener"
                 ><img
                   src="../wp-content/themes/bahamafoodie/svg/Socials/facebook.svg"
                   alt="Facebook"
               /></a>
               <a
-                href="https://www.instagram.com/bahamafoodie.bio/"
+                href="https://www.instagram.com/_bahamafoodie/"
                 target="_blank"
+                rel="noopener"
                 ><img
                   src="../wp-content/themes/bahamafoodie/svg/Socials/instagram.svg"
                   alt="Instagram"
               /></a>
-              <a href="https://www.linkedin.com/company/" target="_blank"
-                ><img
-                  src="../wp-content/themes/bahamafoodie/svg/Socials/linkedin.svg"
-                  alt="Linkedin"
-              /></a>
-              <a href="https://vm.tiktok.com/ZMFeNKqSr/" target="_blank"
+              <a
+                href="https://vm.tiktok.com/ZMFeNKqSr/"
+                target="_blank"
+                rel="noopener"
                 ><img
                   src="../wp-content/themes/bahamafoodie/svg/Socials/tiktok.svg"
                   alt="TikTok"
@@ -2802,6 +2774,15 @@
           __frmHideOrShowFields = __frmHideOrShowFields.concat(frmHide);
         } /*]]>*/
       </script>
+      <!-- Begin WhatsApp floating icon -->
+      <a
+        href="https://api.whatsapp.com/send?phone=2423959690"
+        class="whatsapp-float"
+        target="_blank"
+      >
+        <img src="../whatsapp-icon.webp" alt="whatsapp" />
+      </a>
+      <!-- End WhatsApp floating icon -->
     </main>
   </body>
 
