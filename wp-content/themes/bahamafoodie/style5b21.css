@@ -4095,7 +4095,7 @@ body .waves-page-transition-container .waves-page-transition {
 }
 @media (min-width: 1025px) {
   .intro-section-content {
-    margin-bottom: 90px;
+    margin-bottom: 50px;
   }
 }
 .intro-section-content p {
@@ -4160,7 +4160,7 @@ body .waves-page-transition-container .waves-page-transition {
   font-size: 18rem;
   font-weight: 400;
   margin-bottom: 24px;
-  line-height: 14rem;
+  line-height: 10rem;
   word-spacing: 1.5rem;
 }
 @media (max-width: 1024px) {
@@ -7125,7 +7125,7 @@ body .waves-page-transition-container .waves-page-transition {
     z-index: 1;
   }
   .sign-up-section #sign-up-toasts img {
-    width: 100%;
+    width: 85%;
     height: auto;
   }
 }
@@ -7187,7 +7187,7 @@ body .waves-page-transition-container .waves-page-transition {
 }
 @media (min-width: 768px) {
   .sign-up-section .sign-up-section-container {
-    width: 400px;
+    width: 600px;
   }
 }
 .sign-up-section .sign-up-section-container h2 {
@@ -7304,7 +7304,7 @@ body .waves-page-transition-container .waves-page-transition {
   top: 50%;
   background: url(svg/SignUpSection/bg-signup.svg) center no-repeat;
   background-size: contain;
-  transform: translateY(-50%) scale(1.13);
+  transform: translateY(-50%) translateX(11px) scale(1.13);
   z-index: 0;
 }
 @media (min-width: 1025px) {
@@ -7364,22 +7364,22 @@ body .waves-page-transition-container .waves-page-transition {
   z-index: 1;
   transform: translate(4px, -4px);
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .sign-up-section .sign-up-section-container button #bg-input-btn img {
     transform: translateY(10px) scale(1.04);
   }
   .sign-up-section .sign-up-section-container button p {
     transform: translate(4px, 9px);
   }
-}
-@media (min-width: 1025px) {
+} */
+@media (min-width: 768px) {
   .sign-up-section .sign-up-section-container button #bg-input-btn img {
     height: 100%;
     width: auto;
-    transform: translateY(11px) scale(1.04);
+    transform: translateY(11px) translateX(55px) scale(1.04);
   }
   .sign-up-section .sign-up-section-container button p {
-    transform: translate(3px, 10px);
+    transform: translate(55px, 10px);
   }
 }
 
@@ -17318,7 +17318,7 @@ html:lang(nl-BE) #cookie-law-info-bar .cli-bar-container .cli-bar-btn_container 
 }
 
 /* ****THANK YOU PAGE**** */
-.thank-you-page header {
+/* .thank-you-page header {
   padding: 0rem 0.5rem 2.5rem 0.5rem;
   margin-bottom: 10rem;
   background-color: #ffff00;
@@ -17330,7 +17330,7 @@ html:lang(nl-BE) #cookie-law-info-bar .cli-bar-container .cli-bar-btn_container 
   max-width: 100%;
   margin: 0 auto;
   padding: 0;
-}
+} */
 
 .thank-you-container {
   background-color: #fff;
@@ -17338,7 +17338,7 @@ html:lang(nl-BE) #cookie-law-info-bar .cli-bar-container .cli-bar-btn_container 
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  max-width: 1140px;
+  /* max-width: 1140px; */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -17347,6 +17347,15 @@ html:lang(nl-BE) #cookie-law-info-bar .cli-bar-container .cli-bar-btn_container 
   font-size: 16px;
   color: #000;
   text-align: center;
+}
+
+.thank-you-container .navbar-bg {
+  width: 110vw;
+  height: 15rem;
+  top: 0;
+  background: #ffff00;
+  transform: translateX(-50px);
+  margin-bottom: 12rem;
 }
 
 .thank-you-container h1 {
@@ -17393,4 +17402,79 @@ html:lang(nl-BE) #cookie-law-info-bar .cli-bar-container .cli-bar-btn_container 
 
 .thank-you-container .return-home-btn:active {
   transform: scale(0.9);
+}
+
+#frm_field_58_container {
+  transform: translateX(0) !important;
+}
+
+/* custom scrollbar */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #ffff00;
+  border: 3px solid #fff;
+}
+
+/* wiggle animation on order button */
+.wiggling-button {
+  animation: wiggle 2s linear infinite !important;
+}
+
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+
+  15% {
+    transform: rotateZ(-3deg);
+  }
+
+  20% {
+    transform: rotateZ(3deg);
+  }
+
+  25% {
+    transform: rotateZ(-3deg);
+  }
+
+  30% {
+    transform: rotateZ(3deg);
+  }
+
+  35% {
+    transform: rotateZ(-3deg);
+  }
+
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
+.whatsapp-float {
+	position: fixed;
+	width: 40px;
+	height: auto;
+	bottom: 30px;
+	right: 20px;
+  z-index: 100;
+  transition: all 0.2s ease-in-out;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+.whatsapp-float:active {
+  transform: scale(.8);
+}
+.whatsapp-float img {
+  opacity: 0.75;
+  transition: all 0.2s ease-in-out;
+}
+.whatsapp-float img:hover {
+  opacity: 1;
 }
