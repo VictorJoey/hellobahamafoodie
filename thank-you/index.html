@@ -733,12 +733,17 @@
       name="twitter:image"
       content="https://www.bahamafoodie.com/wp-content/themes/bahamafoodie/img/socialshare.jpg"
     />
+    <script
+      src="https://www.fbgcdn.com/embedder/js/ewm2.js"
+      defer
+      async
+    ></script>
   </head>
   <body
     class="page-template page-template-page-contact page-template-page-contact-php page page-id-51 preload thank-you-page"
   >
     <!-- ******** TOP BAR + HEADER MOBILE ******** -->
-    <div class="topbar-main-header-mobile">
+    <div class="topbar-main-header-mobile" style="z-index: 100;">
       <header class="main-header grid" id="main-header">
         <a class="brand-logo" href="../index.html"
           ><img
@@ -772,13 +777,16 @@
               id="menu-item-262"
               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-262"
             >
-              <a href="javascript:void(0)">Dishes</a>
+              <a href="javascript:void">Dishes</a>
               <ul class="sub-menu">
                 <li
                   id="menu-item-264"
                   class="menu-item menu-item-type-taxonomy menu-item-object-product_type menu-item-264"
                 >
-                  <a href="../product-type/bahamafoodie-spreads/index"
+                  <a
+                    href="javascript:void"
+                    data-glf-cuid="dab12b62-9be0-4b44-9166-de32484977e9"
+                    data-glf-ruid="37e83da4-13ec-4b89-891e-5b287aeae449"
                     >Mondays & Wednesdays</a
                   >
                 </li>
@@ -786,7 +794,12 @@
                   id="menu-item-263"
                   class="menu-item menu-item-type-taxonomy menu-item-object-product_type menu-item-263"
                 >
-                  <a href="../product-type/palais-sauces/">Fridays</a>
+                  <a
+                    href="javascript:void"
+                    data-glf-cuid="dab12b62-9be0-4b44-9166-de32484977e9"
+                    data-glf-ruid="37e83da4-13ec-4b89-891e-5b287aeae449"
+                    >Fridays</a
+                  >
                 </li>
               </ul>
             </li>
@@ -810,8 +823,8 @@
             </li>
           </ul>
           <a
-            href="javascript:void(0)"
-            class="glf-button cta-store-locator wiggling-button"
+            href="javascript:void"
+            class="cta-store-locator wiggling-button"
             data-glf-cuid="dab12b62-9be0-4b44-9166-de32484977e9"
             data-glf-ruid="37e83da4-13ec-4b89-891e-5b287aeae449"
           >
@@ -830,7 +843,7 @@
     </div>
 
     <!-- ******** TOP BAR + HEADER DESKTOP ******** -->
-    <div class="topbar-main-header-desktop">
+    <div class="topbar-main-header-desktop" style="z-index: 100;">
       <!-- <div class="topbar-desktop grid">
               <ul id="menu-upper-menu-1" class="for-profesionals">
                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5738"><a
@@ -935,14 +948,16 @@
               <li
                 class="dropdown-products menu-item menu-item-type-post_type menu-item-object-page"
               >
-                <a href="javascript:void(0)" class="menu-item-dropdown-title"
+                <a href="javascript:void" class="menu-item-dropdown-title"
                   >Dishes</a
                 >
                 <div class="menu-item-sub-wrapper-products">
                   <div class="menu-item-sub">
                     <a
-                      href="../product-type/palais-spreads/"
+                      href="javascript:void"
                       class="menu-item-wrapper"
+                      data-glf-cuid="dab12b62-9be0-4b44-9166-de32484977e9"
+                      data-glf-ruid="37e83da4-13ec-4b89-891e-5b287aeae449"
                     >
                       <h1>Mondays & <br />Wednesdays</h1>
                       <div class="menu-item-picture">
@@ -965,8 +980,10 @@
                         />
                       </div> </a
                     ><a
-                      href="../product-type/bahamafoodie-sauces/index"
+                      href="javascript:void"
                       class="menu-item-wrapper"
+                      data-glf-cuid="dab12b62-9be0-4b44-9166-de32484977e9"
+                      data-glf-ruid="37e83da4-13ec-4b89-891e-5b287aeae449"
                     >
                       <h1>Fridays</h1>
                       <div class="menu-item-picture">
@@ -1026,8 +1043,8 @@
           </svg>
 
           <a
-            href="javascript:void(0)"
-            class="glf-button cta-store-locator wiggling-button"
+            href="javascript:void"
+            class="cta-store-locator wiggling-button"
             data-glf-cuid="dab12b62-9be0-4b44-9166-de32484977e9"
             data-glf-ruid="37e83da4-13ec-4b89-891e-5b287aeae449"
           >
@@ -1036,17 +1053,11 @@
         </nav>
       </header>
     </div>
-    <!-- *** MAIN PAGE CONTENTS *** -->
-    <!-- <header>
-      <img
-        src="../wp-content/themes/bahamafoodie/svg/brand-logo-positive.svg"
-        alt="brand logo"
-        class="brand-logo"
-      />
-    </header> -->
+
     <main class="en-GB">
+
+      <!-- *** MAIN PAGE CONTENTS *** -->
       <div class="container thank-you-container">
-        <div class="navbar-bg"></div>
         <h1>Thank you for considering our services.</h1>
         <p>
           We are excited to learn how we can help to make your event even more
@@ -1060,7 +1071,7 @@
 
       <!-- ******** SIGN UP SECTION ******** -->
 
-      <section class="sign-up-section" style="margin-top: 10rem;">
+      <section class="sign-up-section" style="margin-top: 10rem">
         <div id="sign-up-toasts">
           <div class="sign-up-speech-bubble">
             <img
@@ -1107,9 +1118,7 @@
             >
               <div class="frm_form_fields">
                 <fieldset>
-                  <legend class="frm_screen_reader">
-                    Newsletter
-                  </legend>
+                  <legend class="frm_screen_reader">Newsletter</legend>
 
                   <div class="frm_fields_container">
                     <input type="hidden" name="frm_action" value="create" />
@@ -1218,7 +1227,6 @@
           </div>
         </div>
       </section>
-      
     </main>
 
     <!-- *** FOOTER *** -->
@@ -1239,12 +1247,12 @@
                   <!-- <li id="menu-item-68"
                                       class="menu-item menu-item-type-post_type menu-item-object-page menu-item-68"><a
                                           href="get-inspired/index">Recipes </a></li> -->
-                  <li
+                  <!-- <li
                     id="menu-item-67"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"
                   >
                     <a href="#">Dishes</a>
-                  </li>
+                  </li> -->
                   <li
                     id="menu-item-66"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"
@@ -1285,22 +1293,20 @@
                     id="menu-item-1326"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1326"
                   >
-                    <a href="javascript:void(0)">Phone: </a
+                    <a href="javascript:void">Phone: </a
                     ><a href="tel:2423959690">242-395-9690</a>
                   </li>
                   <li
                     id="menu-item-1326"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1326"
                   >
-                    <a href="javascript:void(0)"
-                      >Opening Hours: 11:30am - 3pm</a
-                    >
+                    <a href="javascript:void">Opening Hours: 11:30am - 3pm</a>
                   </li>
                   <li
                     id="menu-item-1326"
                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1326"
                   >
-                    <a href="javascript:void(0)">Email Address: </a
+                    <a href="javascript:void">Email Address: </a
                     ><a href="mailto:info@hellobahamafoodie.com"
                       >info@hellobahamafoodie.com</a
                     >
@@ -1366,12 +1372,13 @@
     </footer>
     <!-- Begin WhatsApp floating icon -->
     <a
-    href="https://api.whatsapp.com/send?phone=2423959690"
-    class="whatsapp-float"
-    target="_blank"
-  >
-    <img src="../whatsapp-icon.webp" alt="whatsapp" />
-  </a>
-  <!-- End WhatsApp floating icon -->
+      href="https://api.whatsapp.com/send?phone=2423959690"
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener"
+    >
+      <img src="../whatsapp-icon.webp" alt="whatsapp" />
+    </a>
+    <!-- End WhatsApp floating icon -->
   </body>
 </html>
