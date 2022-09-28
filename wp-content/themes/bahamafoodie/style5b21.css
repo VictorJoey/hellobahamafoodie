@@ -691,6 +691,10 @@ body .waves-page-transition-container .waves-page-transition {
   background-color: #ffffff;
   transition: all 0.3s cubic-bezier(0.3, 0.95, 0.33, 0.98);
 }
+.read-more::after {
+  background: url(svg/Arrow-purple.svg) center no-repeat;
+  background-color: #ffffff;
+}
 .cta-border:hover::after {
   left: 9px;
   transition: all 0.3s cubic-bezier(0.3, 0.95, 0.33, 0.98);
