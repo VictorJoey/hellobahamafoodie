@@ -8163,6 +8163,17 @@ body .waves-page-transition-container .waves-page-transition {
     transform: translateY(-50%) translateX(-1px) scale(1);
   }
 }
+@media (min-width: 1025px) {
+  .sign-up-section
+    .sign-up-section-container
+    .email-input-container
+    .input-container
+    #bg-input {
+    width: 200px;
+    height: 72px;
+    transform: translateY(-50%) translateX(-1px) scale(1);
+  }
+}
 .sign-up-section
   .sign-up-section-container
   .email-input-container
@@ -8190,11 +8201,6 @@ body .waves-page-transition-container .waves-page-transition {
   .sign-up-section .sign-up-section-container button {
     transform: translate(12px, 0px);
   }
-}
-@media (max-width: 767px) {
-.sign-up-section .sign-up-section-container .email-input-container .input-container {
-  transform: translateX(34px);
-}
 }
 .sign-up-section .sign-up-section-container button #bg-input-btn {
   display: block;
@@ -8237,10 +8243,10 @@ body .waves-page-transition-container .waves-page-transition {
   .sign-up-section .sign-up-section-container button #bg-input-btn img {
     height: 100%;
     width: auto;
-    transform: translateY(12px) translateX(55px) scale(1.05);
+    transform: translateY(12px) translateX(-24px) scale(0.75);
   }
   .sign-up-section .sign-up-section-container button p {
-    transform: translate(55px, 12px);
+    transform: translate(-24px, 12px);
   }
 }
 
@@ -20016,8 +20022,8 @@ html:lang(nl-BE)
   position: fixed;
   width: 40px;
   height: auto;
-  bottom: 30px;
-  right: 20px;
+  bottom: 10px;
+  right: 10px;
   z-index: 100;
   transition: all 0.2s ease-in-out;
 }
