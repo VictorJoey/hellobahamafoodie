@@ -290,10 +290,7 @@
 	font-weight: 500;
 	line-height: 1.2;
 	color: inherit;
-}
-
-
-.cli-container-fluid {
+}.cli-container-fluid {
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
