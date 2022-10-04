@@ -1,7 +1,1 @@
-# hellobahamafoodie
-
-1. Building with JS and PHP
-2. Convert to wordpress
-
-
-View Page: https://viktorjoseph.github.io/hellobahamafoodie/
+# ![brand-logo](https://www.hellobahamafoodie.com/wp-content/themes/bahamafoodie/svg/brand-logo-negative.svg)
