@@ -1,7 +1,1 @@
-let filtersContainer = document.querySelector("#filters-container");
-let filtersPositions = filtersContainer.getBoundingClientRect();
-
-window.onbeforeunload = function () {
-    // window.scrollTo `${(filtersPositions.left, filtersPositions.top)}`;
-    window.scrollTo(0, 0);
-}
+let filtersContainer=document.querySelector("#filters-container"),filtersPositions=filtersContainer.getBoundingClientRect();window.onbeforeunload=function(){window.scrollTo(0,0)};
